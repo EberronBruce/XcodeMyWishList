@@ -16,6 +16,8 @@
 		7A3B3A031C7B5B1200D60D8A /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B3A011C7B5B1200D60D8A /* Product+CoreDataProperties.swift */; };
 		7A3B3A041C7B5B1200D60D8A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B3A021C7B5B1200D60D8A /* Product.swift */; };
 		7A3B3A061C7B64AF00D60D8A /* nike.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7A3B3A051C7B64AF00D60D8A /* nike.jpeg */; };
+		7A3B3A081C7B6AD800D60D8A /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B3A071C7B6AD800D60D8A /* ProductDetailViewController.swift */; };
+		7A3B3A0A1C7B7A1D00D60D8A /* NewProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B3A091C7B7A1D00D60D8A /* NewProductViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		7A3B3A011C7B5B1200D60D8A /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Product+CoreDataProperties.swift"; path = "../Product+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7A3B3A021C7B5B1200D60D8A /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Product.swift; path = ../Product.swift; sourceTree = "<group>"; };
 		7A3B3A051C7B64AF00D60D8A /* nike.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nike.jpeg; sourceTree = "<group>"; };
+		7A3B3A071C7B6AD800D60D8A /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		7A3B3A091C7B7A1D00D60D8A /* NewProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProductViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 				7A3B3A051C7B64AF00D60D8A /* nike.jpeg */,
 				7A3B39EC1C7B4FE900D60D8A /* AppDelegate.swift */,
 				7A3B39EE1C7B4FE900D60D8A /* ViewController.swift */,
+				7A3B3A071C7B6AD800D60D8A /* ProductDetailViewController.swift */,
+				7A3B3A091C7B7A1D00D60D8A /* NewProductViewController.swift */,
 				7A3B3A021C7B5B1200D60D8A /* Product.swift */,
 				7A3B3A011C7B5B1200D60D8A /* Product+CoreDataProperties.swift */,
 				7A3B39F01C7B4FE900D60D8A /* Main.storyboard */,
@@ -152,7 +158,9 @@
 				7A3B39F51C7B4FE900D60D8A /* My_Wishlist.xcdatamodeld in Sources */,
 				7A3B3A041C7B5B1200D60D8A /* Product.swift in Sources */,
 				7A3B3A031C7B5B1200D60D8A /* Product+CoreDataProperties.swift in Sources */,
+				7A3B3A0A1C7B7A1D00D60D8A /* NewProductViewController.swift in Sources */,
 				7A3B39ED1C7B4FE900D60D8A /* AppDelegate.swift in Sources */,
+				7A3B3A081C7B6AD800D60D8A /* ProductDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

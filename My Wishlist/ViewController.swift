@@ -17,6 +17,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     //Setting up the core data array for the products
     var products : [Product] = []
     
+    //Keep track of row the user selects
+    var selectedProduct : Product? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -55,7 +58,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         let product = NSEntityDescription.insertNewObjectForEntityForName("Product", inManagedObjectContext: context) as! Product
         
-        product.title = "Adias Shoes"
+        product.title = "Dicky Shoes"
+        product.image = UIImageJPEGRepresentation(UIImage(named: "nike.jpeg")!, 1)
         
         do{
             try context.save()
@@ -75,8 +79,25 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         let product = self.products[indexPath.row]
         cell.textLabel!.text = product.title
+        cell.imageView!.image = UIImage(data: product.image!)
         
         return cell
+    }
+    
+    //Get the row selected and transistion to next view controller
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        //Set the selected product
+        self.selectedProduct = self.products[indexPath.row]
+        //Transition to next view controller
+        self.performSegueWithIdentifier("detailSegue", sender: self)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "detailSegue"{
+            let detailVC = segue.destinationViewController as! ProductDetailViewController
+            //set the product to selected product from the table view
+            detailVC.product = self.selectedProduct
+        }
     }
 
 
