@@ -13,6 +13,9 @@
 		7A3B39F51C7B4FE900D60D8A /* My_Wishlist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B39F31C7B4FE900D60D8A /* My_Wishlist.xcdatamodeld */; };
 		7A3B39F71C7B4FE900D60D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3B39F61C7B4FE900D60D8A /* Assets.xcassets */; };
 		7A3B39FA1C7B4FE900D60D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3B39F81C7B4FE900D60D8A /* LaunchScreen.storyboard */; };
+		7A3B3A031C7B5B1200D60D8A /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B3A011C7B5B1200D60D8A /* Product+CoreDataProperties.swift */; };
+		7A3B3A041C7B5B1200D60D8A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B3A021C7B5B1200D60D8A /* Product.swift */; };
+		7A3B3A061C7B64AF00D60D8A /* nike.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7A3B3A051C7B64AF00D60D8A /* nike.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		7A3B39F61C7B4FE900D60D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A3B39F91C7B4FE900D60D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A3B39FB1C7B4FE900D60D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A3B3A011C7B5B1200D60D8A /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Product+CoreDataProperties.swift"; path = "../Product+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7A3B3A021C7B5B1200D60D8A /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Product.swift; path = ../Product.swift; sourceTree = "<group>"; };
+		7A3B3A051C7B64AF00D60D8A /* nike.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nike.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +62,11 @@
 		7A3B39EB1C7B4FE900D60D8A /* My Wishlist */ = {
 			isa = PBXGroup;
 			children = (
+				7A3B3A051C7B64AF00D60D8A /* nike.jpeg */,
 				7A3B39EC1C7B4FE900D60D8A /* AppDelegate.swift */,
 				7A3B39EE1C7B4FE900D60D8A /* ViewController.swift */,
+				7A3B3A021C7B5B1200D60D8A /* Product.swift */,
+				7A3B3A011C7B5B1200D60D8A /* Product+CoreDataProperties.swift */,
 				7A3B39F01C7B4FE900D60D8A /* Main.storyboard */,
 				7A3B39F61C7B4FE900D60D8A /* Assets.xcassets */,
 				7A3B39F81C7B4FE900D60D8A /* LaunchScreen.storyboard */,
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A3B3A061C7B64AF00D60D8A /* nike.jpeg in Resources */,
 				7A3B39FA1C7B4FE900D60D8A /* LaunchScreen.storyboard in Resources */,
 				7A3B39F71C7B4FE900D60D8A /* Assets.xcassets in Resources */,
 				7A3B39F21C7B4FE900D60D8A /* Main.storyboard in Resources */,
@@ -140,6 +150,8 @@
 			files = (
 				7A3B39EF1C7B4FE900D60D8A /* ViewController.swift in Sources */,
 				7A3B39F51C7B4FE900D60D8A /* My_Wishlist.xcdatamodeld in Sources */,
+				7A3B3A041C7B5B1200D60D8A /* Product.swift in Sources */,
+				7A3B3A031C7B5B1200D60D8A /* Product+CoreDataProperties.swift in Sources */,
 				7A3B39ED1C7B4FE900D60D8A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
