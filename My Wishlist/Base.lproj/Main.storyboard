@@ -68,7 +68,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W9j-NZ-GDC">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W9j-NZ-GDC">
                                 <rect key="frame" x="225" y="232" width="150" height="150"/>
                                 <color key="backgroundColor" red="0.95686280729999995" green="0.2588235438" blue="0.12549020350000001" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
@@ -118,6 +118,11 @@
                             <constraint firstItem="SQu-OV-sqx" firstAttribute="top" secondItem="ExG-fo-EkJ" secondAttribute="bottom" constant="40" id="xrf-fj-NAp"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="W9j-NZ-GDC" id="JSW-Sq-RH5"/>
+                        <outlet property="storeTextField" destination="4Lx-GW-DIv" id="Odn-1q-1Mh"/>
+                        <outlet property="titleTextField" destination="xnJ-Tj-iIT" id="c4a-Kk-FwV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7zg-eT-i21" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

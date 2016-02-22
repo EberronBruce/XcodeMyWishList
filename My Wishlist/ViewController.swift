@@ -28,8 +28,11 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         self.tableView.dataSource = self
         self.tableView.delegate = self
         
-        makeSampleProduct()
+        //makeSampleProduct()
         
+    }
+    
+    override func viewWillAppear(animated: Bool) {
         //Sets teh context and calls the manageObjectContexts from the AppDelegate
         let context = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext
         //Requests the items from data
@@ -49,6 +52,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if results != nil{
             self.products = results! as! [Product]
         }
+        
+        //Update table view
+        self.tableView.reloadData()
 
     }
     

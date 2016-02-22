@@ -25,7 +25,7 @@ class ProductDetailViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         self.titleLabel.text = self.product!.title
-        self.storeLabel.text = "Nike Outlet"//self.product!.store
+        self.storeLabel.text = self.product!.store
         self.imageView.image = UIImage(data: self.product!.image!)
     }
 
